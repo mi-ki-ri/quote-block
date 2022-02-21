@@ -1,4 +1,4 @@
-baseURL = 'localhost:1313/'
+baseURL = 'https://mi-ki-ri.github.io/quote-block/'
 languageCode = 'ja-jp'
 title = 'QuoteBlock ~適当な引用~'
 hasCJKLanguage = true
