@@ -1,0 +1,10 @@
+baseURL = 'localhost:1313/'
+languageCode = 'ja-jp'
+title = 'QuoteBlock ~適当な引用~'
+hasCJKLanguage = true
+
+theme = "quoteblock"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
