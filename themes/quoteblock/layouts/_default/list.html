@@ -42,8 +42,8 @@
             <h1>{{ .Site.Title }}</h1>
         </a>
       
-      <h2>Index Page</h2>
-      {{$pages := (where .Site.RegularPages "Type" "in" "posts")}} {{ $paginator
+      <h2>{{.Title}}</h2>
+      {{$pages := (where .Pages "Type" "in" "posts")}}  {{ $paginator
       := .Paginate $pages 100 }} {{ with $paginator }} {{ range $paginator.Pages
       }}
 
